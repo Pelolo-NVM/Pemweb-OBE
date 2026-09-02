@@ -4,7 +4,7 @@
 * Mata Kuliah: Pemrograman Web (26TJ453127)
 * Program Studi: Sarjana Teknik Komputer
 * Universitas: Universitas Borneo Tarakan
-* Nama Mahasiswa: Febryano Putra
+* Nama Mahasiswa: Febryano Putra (2440304020)
 
 ## Deskripsi Singkat Proyek
 Proyek semester ini difokuskan pada pengembangan antarmuka dan layanan sistem web untuk UMKM Seblak Prasmanan. Aplikasi ini dikembangkan secara inkremental mulai dari prototipe front-end hingga menjadi produk full-stack untuk mendukung digitalisasi pencatatan dan pengelolaan operasional UMKM.
