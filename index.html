@@ -1,11 +1,99 @@
-<html lang="en">
+<!doctype html>
+<html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portal resmi Borneo Music Fest, festival musik lokal terbesar di Tarakan.">
+    <title>Borneo Music Fest - Rayakan Musik Lokal</title>
 </head>
 <body>
-    <h1> Praktikum pemrograman web </h1>
-    <p> Repository Awal OBE </p>
+    <header>
+        <!-- Link untuk aksesibilitas keyboard (skip navigation) -->
+        <a href="#main">Lewati ke konten utama</a>
+        
+        <h1>Borneo Music Fest 2026</h1>
+        <p>Menghidupkan Skena Musik Tarakan</p>
+        
+        <nav aria-label="Navigasi utama">
+            <ul>
+                <li><a href="#beranda">Beranda</a></li>
+                <li><a href="#lineup">Line-up</a></li>
+                <li><a href="#berita">Berita</a></li>
+                <li><a href="#pendaftaran">Daftar Audisi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Section 1: Hero / Beranda -->
+        <section id="beranda">
+            <h2>Panggung Menunggu Karyamu</h2>
+            <p>Bergabunglah bersama ribuan penikmat musik dalam festival akhir tahun terbesar. Saatnya karya orisinalmu didengar.</p>
+            <!-- Gambar dekoratif dengan alt kosong sesuai standar aksesibilitas -->
+            <img src="assets/banner-fest.jpg" alt="" width="800">
+        </section>
+
+        <!-- Section 2: Daftar Line-up -->
+        <section id="lineup">
+            <h2>Daftar Penampil Utama</h2>
+            <ul>
+                <li>
+                    <!-- Gambar informatif dengan alt text deskriptif -->
+                    <img src="assets/band1.jpg" alt="Vokalis bernyanyi di atas panggung dengan tata cahaya merah" width="300">
+                    <p>The Lantis - Band Indie Pop</p>
+                </li>
+                <li>
+                    <img src="assets/band2.jpg" alt="Gitaris memainkan melodi gitar elektrik dengan penuh semangat" width="300">
+                    <p>The Adams - Power Pop</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Section 3: Berita & Artikel (Memuat Article) -->
+        <section id="berita">
+            <h2>Kabar Festival</h2>
+            
+            <article>
+                <h3>Pentingnya Menulis Lirik Sendiri bagi Band Lokal</h3>
+                <p>Dalam skena musik saat ini, orisinalitas adalah kunci. Menulis lirik lagu sendiri tidak hanya menunjukkan identitas, tetapi juga membangun koneksi emosional yang lebih dalam dengan pendengar. Borneo Music Fest tahun ini memberikan nilai tambah bagi band yang membawakan lagu ciptaan sendiri.</p>
+            </article>
+        </section>
+
+        <!-- Section 4: Form Pendaftaran -->
+        <section id="pendaftaran">
+            <h2>Formulir Audisi Band Lokal</h2>
+            <p>Punya karya? Daftarkan band kamu untuk tampil di panggung utama!</p>
+            
+            <form action="#" method="POST">
+                <div>
+                    <!-- Atribut 'for' pada label harus sama dengan 'id' pada input -->
+                    <label for="nama_band">Nama Band:</label>
+                    <input type="text" id="nama_band" name="nama_band" required>
+                </div>
+                
+                <div>
+                    <label for="email_kontak">Email Perwakilan:</label>
+                    <input type="email" id="email_kontak" name="email_kontak" required>
+                </div>
+
+                <div>
+                    <label for="link_video">Link Video Live/Cover:</label>
+                    <input type="url" id="link_video" name="link_video" placeholder="https://youtube.com/..." required>
+                </div>
+                
+                <div>
+                    <label for="lirik_lagu">Draf Lirik Lagu Orisinal (Opsional):</label><br>
+                    <textarea id="lirik_lagu" name="lirik_lagu" rows="4" cols="50" placeholder="Tulis lirik lagu yang akan dibawakan..."></textarea>
+                </div>
+
+                <button type="submit">Kirim Pendaftaran</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Borneo Music Fest. Semua hak cipta dilindungi.</p>
+        <p>Kontak: info@borneomusicfest.com</p>
+    </footer>
 </body>
 </html>
