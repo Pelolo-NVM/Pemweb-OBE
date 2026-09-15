@@ -27,3 +27,9 @@ Proyek semester ini difokuskan pada pengembangan antarmuka dan layanan sistem we
 * Implementasi aksesibilitas dasar (alt text informatif, hierarchy heading h1-h3).
 * Form audisi band lokal dengan struktur form dan label yang saling terkait.
 * Navigasi logis yang dapat diakses penuh melalui keyboard.
+
+## Fitur yang Sudah Selesai (Modul 3)
+* Rebranding proyek menjadi "Tarakota Skena" dengan penerapan palet warna *retro-pop* (Custom Properties CSS).
+* Implementasi layout CSS modern menggunakan Flexbox (untuk navigasi sejajar) dan CSS Grid (untuk kartu *line-up*).
+* Desain responsif menggunakan pendekatan *Mobile-First*, unit relatif (`clamp()`), dan *Media Query*.
+* Peningkatan aksesibilitas visual dengan kontras warna yang aman dan penambahan indikator `focus-visible` pada elemen interaktif.
