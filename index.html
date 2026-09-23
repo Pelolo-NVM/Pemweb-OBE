@@ -31,7 +31,7 @@
             <h2>Panggung Menunggu Karyamu</h2>
             <p>Bergabunglah bersama ribuan penikmat musik dalam festival akhir tahun terbesar. Saatnya karya orisinalmu didengar.</p>
             <!-- Gambar dekoratif dengan alt kosong sesuai standar aksesibilitas -->
-            <img src="assets/banner-fest.jpg" alt="" width="800">
+            <!-- <img src="assets/banner-fest.jpg" alt="" width="800"> -->
         </section>
 
         <!-- Section 2: Daftar Line-up -->
@@ -60,7 +60,36 @@
             </article>
         </section>
 
-        <!-- Section 4: Form Pendaftaran -->
+        <!-- Section 4: Manajemen Audisi -->
+       <section id="manajemen-audisi">
+            <h2>Daftar Band Audisi Tarakota</h2>
+    
+        <!-- Area Toolbar Interaksi -->
+        <div class="toolbar" aria-label="Filter audisi">
+            <input id="search" type="search" placeholder="Cari nama band...">
+        
+            <button data-filter="Semua">Semua</button>
+            <button data-filter="Lolos">Lolos Kurasi</button>
+            <button data-filter="Audisi">Menunggu Audisi</button>
+            <button data-filter="Ditolak">Ditolak</button>
+        
+            <select id="limit">
+                <option value="2">2 Band</option>
+                <option value="5">5 Band</option>
+                <option value="10">10 Band</option>
+                <option value="50">Semua Band</option>
+            </select>
+        
+                <button id="theme-button" type="button">Ganti Tema</button>
+        </div>
+
+        <!-- Container Grid untuk Cards -->
+        <div id="daftar-band" aria-live="polite">
+        <!-- Cards akan dirender otomatis oleh JS di sini -->
+        </div>
+        </section> 
+
+        <!-- Section 5: Form Pendaftaran -->
         <section id="pendaftaran">
             <h2>Formulir Audisi Band Lokal</h2>
             <p>Punya karya? Daftarkan band kamu untuk tampil di panggung utama!</p>
